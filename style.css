@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./assignment3/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.component{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.component img{
+    border-radius: 20px;
+}
+
+.component h2{
+    margin: 20px;
+}
+
+.component p{
+    padding: 0 65px 0 65px;
+    margin-bottom: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.component .middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.component .middle img{
+    padding-right: 10px;
+}
+
+.component .middle .btn h4{
+    color: hsl(224, 23%, 55%);
+}
+
+.component .middle .note{
+    margin-right: 100px;
+}
+
+.component .middle .note h3:last-child{
+    color: hsl(224, 23%, 55%);
+    margin-top: 2px;
+}
+
+.component .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(245, 75%, 49%);
+    padding: 15px;
+    /* margin: 0 5px 20px 50px;
+    color: hsl(, , ); */
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+}
